@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        #btn:focus{
+            border-color: blue;
+        }
+        .contador{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejercicio de contador con JS</h1>
+    <br>
+    <br>
+    <div class="contador">
+        <button class="restar">-</button>
+        <span class="aqui"> 0 </span>
+        <button class="sumar">+</button>
+        <button class="confirmar">confirmar</button>
+        <span class="vacio"></span>
+    </div>
+
+    <hr>
+    <h1>Ejercicio de menu desplegable JS</h1>
+    <br>
+    <br>
+    
+    
+    <nav>
+        <button id="btn-menu">...</button>
+        <div id='navbar' class="navegador oculto">
+            <a href="">link 1</a>
+            <a href="">link 2</a>
+            <a href="">link 3</a>
+            <a href="">link 4</a>
+        </div>
+    </nav>
+    <br>
+    <h2><u>Requisitos:</u></h2>
+    <ul>
+        <li>El button '...' debera ocultar o mostrar los links al darle click</li>
+    </ul>
+
+    <script src="./script.js"></script>
+</body>
+</html>
