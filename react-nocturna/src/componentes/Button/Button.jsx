@@ -1,13 +1,10 @@
 import React from "react";
 import "./button.css"
 
-const Button = () =>{
-    const saludar = () =>{
-        alert("Hola")
-    }
+const Button = (props) =>{
 
     return (
-        <button onClick={saludar}>Click </button>
+        <button onClick={props.funcion}>Click </button>
     )
 }
 

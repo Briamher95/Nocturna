@@ -4,6 +4,13 @@ import { Button , Input } from './componentes'
 
 
 const App = () => {
+  const saludar = () =>{
+    alert("Hola")
+}
+  const despedida = () =>{
+    alert ("Adios")
+  }
+
   return (
     <>
     <div>
@@ -12,7 +19,8 @@ const App = () => {
 
     </div>
     <div>
-      <Button/>
+      <Button funcion= {saludar} />
+      <Button funcion= {despedida} />
       <Input/>
     </div>
     </>
